@@ -36,7 +36,7 @@ trait Locking
             return $this->modelLock->verify($token);
         }
 
-        return true;
+        return false;
     }
 
     /**
